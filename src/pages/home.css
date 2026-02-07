@@ -41,7 +41,7 @@
     box-shadow: 
         0 25px 50px rgba(0, 0, 0, 0.25),
         0 0 0 1px rgba(255, 255, 255, 0.2);
-    max-width: 420px;
+    max-width: 500px; /* Increased to accommodate larger QR */
     width: 100%;
     border: 5px solid #00af87;
     border-radius: 20px;
@@ -257,13 +257,13 @@ div.tripadvisor-icon:hover,
 
 .qr-code {
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
-    padding: 2px; /* Reduced from 5px */
+    padding: 1px !important; /* Force 1px padding */
     border-radius: 16px;
     box-shadow: 
         0 12px 25px rgba(0, 0, 0, 0.1),
         0 0 0 1px rgba(255, 255, 255, 0.2);
-    width: 300px;
-    height: 300px;
+    width: 350px !important; /* Force larger width */
+    height: 350px !important; /* Force larger height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +281,7 @@ div.tripadvisor-icon:hover,
     right: 0;
     bottom: 0;
     border-radius: 16px;
-    padding: 2px;
+    padding: 1px;
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0;
@@ -302,8 +302,8 @@ div.tripadvisor-icon:hover,
 .qr-image {
     display: block;
     border-radius: 10px;
-    width: 200px; /* Increased from 150px */
-    height: 200px; /* Increased from 150px */
+    width: 320px !important; /* Much larger QR image */
+    height: 320px !important; /* Much larger QR image */
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -363,7 +363,7 @@ div.tripadvisor-icon:hover,
     }
     
     .feedback-card {
-        max-width: 350px;
+        max-width: 380px; /* Increased for mobile too */
         border-radius: 18px;
     }
     
@@ -399,14 +399,14 @@ div.tripadvisor-icon:hover,
     }
     
     .qr-code {
-        width: 160px;
-        height: 160px;
-        padding: 2px; /* Reduced padding for mobile */
+        width: 280px !important; /* Larger mobile QR */
+        height: 280px !important; /* Larger mobile QR */
+        padding: 1px !important; /* Force 1px padding on mobile */
     }
     
     .qr-image {
-        width: 150px; /* Increased from 135px */
-        height: 150px; /* Increased from 135px */
+        width: 260px !important; /* Larger mobile QR image */
+        height: 260px !important; /* Larger mobile QR image */
     }
     
     .qr-section svg {
