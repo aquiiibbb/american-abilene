@@ -262,8 +262,8 @@ div.tripadvisor-icon:hover,
     box-shadow: 
         0 12px 25px rgba(0, 0, 0, 0.1),
         0 0 0 1px rgba(255, 255, 255, 0.2);
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +281,7 @@ div.tripadvisor-icon:hover,
     right: 0;
     bottom: 0;
     border-radius: 16px;
-    padding: 3px;
+    padding: 2px;
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0;
@@ -302,8 +302,8 @@ div.tripadvisor-icon:hover,
 .qr-image {
     display: block;
     border-radius: 10px;
-    width: 180px; /* Increased from 150px */
-    height: 180px; /* Increased from 150px */
+    width: 200px; /* Increased from 150px */
+    height: 200px; /* Increased from 150px */
     object-fit: contain;
     transition: transform 0.3s ease;
 }
