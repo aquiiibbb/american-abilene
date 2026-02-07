@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './home.css';
 import { FaHandPointUp } from "react-icons/fa";
 import image from '../assest/URL QR Code.jpg'
+import imf from "../assest/lg.jpeg"
 
 export default function Home() {
     const navigate = useNavigate();
@@ -43,10 +44,12 @@ export default function Home() {
                 <div className="card-body">
                     <div className="logo-section">
                         <img 
-                            style={{height:"200px", width:"200px"}}
-                            src="https://xpressinnmarshall.com/wp-content/uploads/2023/09/xpressinn-main-sign.png" 
+                            style={{height:"190px", width:"210px",paddingTop:"5px"}}
+                            src={imf} 
                             alt="Xpress Inn Logo" 
                         />
+                         <h5 className="hotel-nam"> American Star Inn - Abilene</h5>
+
                     </div>
 
                     <h4 className="main-text">

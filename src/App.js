@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/FeedbackSurvey" element={<FeedbackSurvey />} />
-        <Route path="/ReviewRedirect" element={<ReviewRedirect />} />
-        <Route path="/PrivateFeedback" element={<PrivateFeedback />} />
+        <Route path="/FeedbackSurvey" element={<FeedbackSurvey />}/>
+        <Route path="/ReviewRedirect" element={<ReviewRedirect />}/>
+        <Route path="/PrivateFeedback" element={<PrivateFeedback />}/>
         <Route path="/thank-you" element={<ThankYou  />} />
       </Routes>
     </Router>

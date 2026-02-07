@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './about.css';
+import imf from "../assest/lg.jpeg"
 
 const FeedbackSurvey = () => {
   const [rating, setRating] = useState(null);
@@ -35,13 +36,13 @@ const FeedbackSurvey = () => {
       <div className="survey-card">
         <div className="logo-section">
           <img
-            src="https://xpressinnmarshall.com/wp-content/uploads/2023/09/xpressinn-main-sign.png"
+            src={imf}
             alt="Xpress Inn Logo"
-            style={{ maxWidth: '200px', height: 'auto' }}
+             style={{height:"190px", width:"210px",paddingTop:"5px"}}
           />
         </div>
 
-        <h2 className="hotel-name">Xpress Inn Marshall</h2>
+        <h2 className="hotel-name"> American Star Inn - Abilene</h2>
         <h3 className="question">How was your stay?</h3>
 
         <div className="rating-section">
@@ -84,11 +85,11 @@ const FeedbackSurvey = () => {
         <div className="contact-info">
           <div>300 I-20, Marshall, TX</div>
           <div>+1 923-471-8277</div>
-          <div>https://xpressinnmarshall.com</div>
+          <div>https://American Star Inn - Abilene.com</div>
         </div>
 
         <div className="powered-by">
-          Powered by <span className="guesttouch">Xpress Inn</span>
+          Powered by <span className="guesttouch">American Star Inn - Abilene</span>
         </div>
       </div>
     </div>
