@@ -41,7 +41,7 @@
     box-shadow: 
         0 25px 50px rgba(0, 0, 0, 0.25),
         0 0 0 1px rgba(255, 255, 255, 0.2);
-    max-width: 500px; /* Increased to accommodate larger QR */
+    max-width: 500px;
     width: 100%;
     border: 5px solid #00af87;
     border-radius: 20px;
@@ -257,13 +257,13 @@ div.tripadvisor-icon:hover,
 
 .qr-code {
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
-    padding: 1px !important; /* Force 1px padding */
+    padding: 0 !important; /* COMPLETELY REMOVED PADDING */
     border-radius: 16px;
     box-shadow: 
         0 12px 25px rgba(0, 0, 0, 0.1),
         0 0 0 1px rgba(255, 255, 255, 0.2);
-    width: 350px !important; /* Force larger width */
-    height: 350px !important; /* Force larger height */
+    width: 350px !important;
+    height: 350px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +281,7 @@ div.tripadvisor-icon:hover,
     right: 0;
     bottom: 0;
     border-radius: 16px;
-    padding: 1px;
+    padding: 0; /* NO PADDING HERE TOO */
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0;
@@ -301,9 +301,9 @@ div.tripadvisor-icon:hover,
 
 .qr-image {
     display: block;
-    border-radius: 10px;
-    width: 320px !important; /* Much larger QR image */
-    height: 320px !important; /* Much larger QR image */
+    border-radius: 16px; /* Match container border radius */
+    width: 350px !important; /* FULL CONTAINER SIZE */
+    height: 350px !important; /* FULL CONTAINER SIZE */
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -363,7 +363,7 @@ div.tripadvisor-icon:hover,
     }
     
     .feedback-card {
-        max-width: 380px; /* Increased for mobile too */
+        max-width: 380px;
         border-radius: 18px;
     }
     
@@ -399,14 +399,15 @@ div.tripadvisor-icon:hover,
     }
     
     .qr-code {
-        width: 280px !important; /* Larger mobile QR */
-        height: 280px !important; /* Larger mobile QR */
-        padding: 1px !important; /* Force 1px padding on mobile */
+        width: 280px !important;
+        height: 280px !important;
+        padding: 0 !important; /* NO PADDING ON MOBILE TOO */
     }
     
     .qr-image {
-        width: 260px !important; /* Larger mobile QR image */
-        height: 260px !important; /* Larger mobile QR image */
+        width: 280px !important; /* FULL MOBILE CONTAINER SIZE */
+        height: 280px !important; /* FULL MOBILE CONTAINER SIZE */
+        border-radius: 18px; /* Match mobile container border radius */
     }
     
     .qr-section svg {

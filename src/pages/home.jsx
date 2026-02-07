@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="card-body">
                     <div className="logo-section">
                         <img 
-                            style={{height:"170px", width:"195px",paddingTop:"5px"}}
+                            style={{height:"190px", width:"205px",paddingTop:"5px"}}
                             src={imf} 
                             alt="Xpress Inn Logo" 
                         />
