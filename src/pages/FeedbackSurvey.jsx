@@ -83,9 +83,9 @@ const FeedbackSurvey = () => {
         </p>
 
         <div className="contact-info">
-          <div>300 I-20, Marshall, TX</div>
-          <div>+1 923-471-8277</div>
-          <div>https://American Star Inn - Abilene.com</div>
+          <div> 1633 W Stamford St, Abilene, TX 79601.</div>
+          <div>(325) 673-5424</div>
+          <div>info@americanstarhotel.com</div>
         </div>
 
         <div className="powered-by">

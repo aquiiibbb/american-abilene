@@ -8,8 +8,8 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
   const [countdown, setCountdown] = useState(8);
 
   // Real links - replace with actual hotel IDs
-  const googleLink = ' https://www.google.com/travel/search?q=Xpress%20Inn%20%26%20Extended%20Stay%20Marshall%20TX%20Near%20I-20%20E%20%26%20US%20Hwy%2059%2C%20300%20I-20%2C%20Marshall%2C%20TX%2075672%2C%20United%20States&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C73107089%2C73192290%2C73249147&hl=en-IN&gl=in&ssta=1&ts=CAEaRwopEicyJTB4ODYzNmY3YTBiYzllOTBhZDoweDFiOTI4YWE0MWQ5MDg2ODISGhIUCgcI6g8QAhgFEgcI6g8QAhgGGAEyAhAA&qs=CAEyE0Nnb0lnbzNDN01IVW9za2JFQUU4AkIJCYKGkB2kipIbQgkJgoaQHaSKkhs&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwig14zp-quSAxUAAAAAHQAAAAAQBQ';
-  const tripAdvisorLink = 'https://www.tripadvisor.com/Hotel_Review-g56236-d28804568-Reviews-Xpress_Inn_Extended_Stays-Marshall_Texas.html';
+  const googleLink = 'https://www.google.com/travel/search?q=American%20Star%20Inn%20-%20Abilene&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C73249147%2C121522131&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAEaRwopEicyJTB4ODY1NjhmMmZiZGUyMTZhYjoweDg2Nzg3Y2I3ODRlZDc3YTISGhIUCgcI6g8QAhgKEgcI6g8QAhgLGAEyAhAA&qs=CAEyFENnc0lvdS0xcF9pV243eUdBUkFCOAJCCQmid-2Et3x4hkIJCaJ37YS3fHiG&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwj41p3Ev8mSAxUAAAAAHQAAAAAQBA';
+  const tripAdvisorLink = 'https://www.tripadvisor.in/Hotel_Review-g30138-d21397848-Reviews-Americas_Best_Value_Inn_Abilene-Abilene_Texas.html';
 
   // Auto redirect countdown
   useEffect(() => {
@@ -172,8 +172,8 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
         
         {/* Footer */}
         <div className="contact-info">
-          <div>300 / 20 • +19234718277</div>
-          <div>https://xpressinnmarshall.com/</div>
+          <div>300 / 20 •1 325-673-5424</div>
+          <div>www.americanstarinnabilene.com</div>
         </div>
         
         <div className="powered-b">
